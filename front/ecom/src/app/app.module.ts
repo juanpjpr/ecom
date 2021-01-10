@@ -8,6 +8,9 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { BannerComponent } from './banner/banner.component';
 import { GridComponent } from './grid/grid.component';
 import { FooterComponent } from './footer/footer.component';
+import { CatalogoComponent } from './catalogo/catalogo.component';
+import { MenuCatComponent } from './menu-cat/menu-cat.component';
+import { VisorCatComponent } from './visor-cat/visor-cat.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { FooterComponent } from './footer/footer.component';
     NavbarComponent,
     BannerComponent,
     GridComponent,
-    FooterComponent
+    FooterComponent,
+    CatalogoComponent,
+    MenuCatComponent,
+    VisorCatComponent
   ],
   imports: [
     BrowserModule,
