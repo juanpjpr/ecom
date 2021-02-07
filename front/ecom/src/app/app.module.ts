@@ -12,6 +12,7 @@ import { CatalogoComponent } from './catalogo/catalogo.component';
 import { MenuCatComponent } from './menu-cat/menu-cat.component';
 import { VisorCatComponent } from './visor-cat/visor-cat.component';
 import { CreateProductComponent } from './create-product/create-product.component';
+import { VisorProductoComponent } from './visor-producto/visor-producto.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { CreateProductComponent } from './create-product/create-product.componen
     CatalogoComponent,
     MenuCatComponent,
     VisorCatComponent,
-    CreateProductComponent
+    CreateProductComponent,
+    VisorProductoComponent
   ],
   imports: [
     BrowserModule,
